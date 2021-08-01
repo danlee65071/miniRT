@@ -24,3 +24,30 @@ norminette srcs includes libft
 ![alt text](https://github.com/danlee65071/miniRT/blob/master/png/hi.png "hi_scene")
 ![alt text](https://github.com/danlee65071/miniRT/blob/master/png/sub.png "sub_scene")
 ![alt text](https://github.com/danlee65071/miniRT/blob/master/png/test.png "test_scene")
+
+## Project Description
+This project focuses on the topic of ray tracing. The program can draw 4 geometric shapes: a sphere, a plane, a cylinder and a paraboloid. There is one camera, one ambient light, several point lights, and a variable number of shapes in a scene. The figures are a complete Phong model (i.e., specularity is added), as well as a checkerboard coloring. The project is made on OS macos.
+
+## Checking for [norminette v3] (https://github.com/42School/norminette)
+If you do not have a Morminette installed, then check the instructions:
+
+source venv / bin / activate
+
+Next, you can check files with .h and .c extensions. To do this, write in the line:
+
+norminette srcs includes libft
+
+It should be something like this:
+
+! [alternative text] (https://github.com/danlee65071/miniRT/blob/master/png/norm1.png "norm1")
+! [alternative text] (https://github.com/danlee65071/miniRT/blob/master/png/norm2.png "norm2")
+
+## To run the program, do the following on the following line:
+1.do
+2. ./miniRT "filename" .rt
+
+## Examples:
+![alt text](https://github.com/danlee65071/miniRT/blob/master/png/hi.png "hi_scene")
+![alt text](https://github.com/danlee65071/miniRT/blob/master/png/sub.png "sub_scene")
+![alt text](https://github.com/danlee65071/miniRT/blob/master/png/test.png "test_scene")
+
