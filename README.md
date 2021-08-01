@@ -31,9 +31,9 @@ This project focuses on the topic of ray tracing. The program can draw 4 geometr
 ## Checking for [norminette v3](https://github.com/42School/norminette)
 If you do not have a Morminette installed, then check the instructions:
 
-source venv / bin / activate
+source venv/bin/activate
 
-Next, you can check files with .h and .c extensions. To do this, write in the line:
+Next, you can check files with .h and .c extensions. To do this, write in the command line:
 
 norminette srcs includes libft
 
