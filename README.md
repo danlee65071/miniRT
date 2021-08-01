@@ -20,6 +20,13 @@ norminette srcs includes libft
 1. make
 2. ./miniRT "имя файла".rt
 
+## Структура rt файла
+
+Окружающее освещение:
+* Идентификатор: A
+* Коэффициент внешнего освещения в диапазоне [0,0,1,0]
+* Цвет (r, g, b) в диапазоне [0-255]
+
 ## Примеры:
 ![alt text](https://github.com/danlee65071/miniRT/blob/master/png/hi.png "hi_scene")
 ![alt text](https://github.com/danlee65071/miniRT/blob/master/png/sub.png "sub_scene")
