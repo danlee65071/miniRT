@@ -21,3 +21,4 @@ norminette srcs includes libft
 2. ./miniRT "имя файла".rt
 
 ## Примеры:
+![alt text](https://github.com/danlee65071/miniRT/blob/master/png/hi.png "hi_scene")
