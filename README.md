@@ -14,6 +14,7 @@ norminette srcs includes libft
 Должно быть примерно так:
 
 ![alt text](https://github.com/danlee65071/miniRT/blob/master/png/norm1.png "norm1")
+![alt text](https://github.com/danlee65071/miniRT/blob/master/png/norm2.png "norm2")
 
 ## Для запуска прогарммы выполните следующие указания в командной строке:
 1. make
