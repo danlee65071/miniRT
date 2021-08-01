@@ -22,3 +22,5 @@ norminette srcs includes libft
 
 ## Примеры:
 ![alt text](https://github.com/danlee65071/miniRT/blob/master/png/hi.png "hi_scene")
+![alt text](https://github.com/danlee65071/miniRT/blob/master/png/sub.png "sub_scene")
+![alt text](https://github.com/danlee65071/miniRT/blob/master/png/test.png "test_scene")
