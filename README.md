@@ -26,7 +26,7 @@ norminette srcs includes libft
 ![alt text](https://github.com/danlee65071/miniRT/blob/master/png/test.png "test_scene")
 
 ## Project Description
-This project focuses on the topic of ray tracing. The program can draw 4 geometric shapes: a sphere, a plane, a cylinder and a paraboloid. There is one camera, one ambient light, several point lights, and a variable number of shapes in a scene. The figures are a complete Phong model (i.e., specularity is added), as well as a checkerboard coloring. The project is made on OS macos.
+This project focuses on the topic of ray tracing. The program can draw 4 geometric shapes: a sphere, a plane, a cylinder and a paraboloid. There is one camera, one ambient light, several point lights, and a variable number of shapes in a scene. The figures are a complete Phong model, as well as a checkerboard coloring. The project is made on OS macos.
 
 ## Checking for [norminette v3](https://github.com/42School/norminette)
 If you do not have a Morminette installed, then check the instructions:
