@@ -43,8 +43,8 @@ It should be something like this:
 ![alternative text](https://github.com/danlee65071/miniRT/blob/master/png/norm2.png "norm2")
 
 ## To run the program, do the following on the command line:
-1.do
-2. ./miniRT "filename" .rt
+1. make
+2. ./miniRT "filename".rt
 
 ## Examples:
 ![alt text](https://github.com/danlee65071/miniRT/blob/master/png/hi.png "hi_scene")
