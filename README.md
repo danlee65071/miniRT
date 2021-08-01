@@ -39,8 +39,8 @@ norminette srcs includes libft
 
 It should be something like this:
 
-! [alternative text](https://github.com/danlee65071/miniRT/blob/master/png/norm1.png "norm1")
-! [alternative text](https://github.com/danlee65071/miniRT/blob/master/png/norm2.png "norm2")
+![alternative text](https://github.com/danlee65071/miniRT/blob/master/png/norm1.png "norm1")
+![alternative text](https://github.com/danlee65071/miniRT/blob/master/png/norm2.png "norm2")
 
 ## To run the program, do the following on the command line:
 1.do
