@@ -13,7 +13,8 @@ norminette srcs includes libft
 
 Должно быть примерно так:
 
-  
+![alt text](https://github.com/danlee65071/miniRT/blob/master/png/norm1.png "norm1")
+
 ## Для запуска прогарммы выполните следующие указания в командной строке:
 1. make
 2. ./miniRT "имя файла".rt
