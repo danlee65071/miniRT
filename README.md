@@ -102,13 +102,13 @@ It should be something like this:
 
 ### Camera:
 * Identifier: C
-∗ x, y, z coordinates of the viewpoint
-∗ Normalized orientation vector. In the range [-1, 1] for each x, y, z axis
+* x, y, z coordinates of the viewpoint
+* Normalized orientation vector. In the range [-1, 1] for each x, y, z axis
 * FOV: Horizontal field of view in degrees in the range [0, 180]
 
 ### Spot light:
 * Identifier: L
-∗ x, y, z coordinates of the light point
+* x, y, z coordinates of the light point
 * Luminance factor of light in the range [0.0, 1.0]
 * Color (r, g, b) in the range [0, 255]
 
@@ -116,7 +116,7 @@ It should be something like this:
 * Identifier: sp
 * x, y, z coordinates of the center of the sphere
 * Sphere diameter
-∗ Color (r, g, b) in the range [0, 255]
+* Color (r, g, b) in the range [0, 255]
 
 ### Plane:
 * Identifier: pl
@@ -126,11 +126,11 @@ It should be something like this:
 
 ### Cylinder:
 * Identifier: cy
-∗ x, y, z coordinates
-∗ Normalized orientation vector. In the range [-1, 1] for each x, y, z axis
+* x, y, z coordinates
+* Normalized orientation vector. In the range [-1, 1] for each x, y, z axis
 * Cylinder diameter
 * Cylinder height
-∗ Color (r, g, b) in the range [0, 255]
+* Color (r, g, b) in the range [0, 255]
 
 ### Paraboloid
 * Identifier: pa
