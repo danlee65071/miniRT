@@ -65,6 +65,8 @@ norminette srcs includes libft
 * Нормализованный вектор ориентации. В диапазоне [-1, 1] для каждой оси x, y, z
 * Скаляр, определяющий расстояние ядра параболоида и плоскости от точки экстремума
 
+Для шахматной раскраски добавьте к описаниям фигур дополнительный параметр: размер шахматной ячейки.
+
 ## Примеры:
 ![alt text](https://github.com/danlee65071/miniRT/blob/master/png/hi.png "hi_scene")
 ![alt text](https://github.com/danlee65071/miniRT/blob/master/png/sub.png "sub_scene")
