@@ -93,6 +93,53 @@ It should be something like this:
 1. make
 2. ./miniRT "filename".rt
 
+## The structure of the rt file
+
+### Ambient lighting:
+* Identifier: A
+* Ambient light factor in the range [0.0, 1.0]
+* Color (r, g, b) in the range [0, 255]
+
+### Camera:
+* Identifier: C
+∗ x, y, z coordinates of the viewpoint
+∗ Normalized orientation vector. In the range [-1, 1] for each x, y, z axis
+* FOV: Horizontal field of view in degrees in the range [0, 180]
+
+### Spot light:
+* Identifier: L
+∗ x, y, z coordinates of the light point
+* Luminance factor of light in the range [0.0, 1.0]
+* Color (r, g, b) in the range [0, 255]
+
+### Sphere:
+* Identifier: sp
+* x, y, z coordinates of the center of the sphere
+* Sphere diameter
+∗ Color (r, g, b) in the range [0, 255]
+
+### Plane:
+* Identifier: pl
+* x, y, z coordinates
+* Normalized orientation vector. In the range [-1, 1] for each x, y, z axis
+* Color (r, g, b) in the range [0, 255]
+
+### Cylinder:
+* Identifier: cy
+∗ x, y, z coordinates
+∗ Normalized orientation vector. In the range [-1, 1] for each x, y, z axis
+* Cylinder diameter
+* Cylinder height
+∗ Color (r, g, b) in the range [0, 255]
+
+### Paraboloid
+* Identifier: pa
+* Extremum point (x, y, z)
+* Normalized orientation vector. In the range [-1, 1] for each x, y, z axis
+* Scalar that determines the distance of the paraboloid core and the plane from the extremum point
+
+For a checkerboard coloring, add an additional parameter to the figure descriptions: the size of the checkerboard cell.
+
 ## Examples:
 ![alt text](https://github.com/danlee65071/miniRT/blob/master/png/hi.png "hi_scene")
 ![alt text](https://github.com/danlee65071/miniRT/blob/master/png/sub.png "sub_scene")
