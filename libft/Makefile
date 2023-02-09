@@ -28,7 +28,7 @@ OBJS			= $(SRCS:.c=.o)
 BONUS_OBJS		= $(BONUS:.c=.o)
 HEADER			= libft.h
 
-CC				= gcc
+CC				= clang
 RM				= rm -f
 CFLAGS			= -Wall -Wextra -Werror
 
@@ -37,8 +37,8 @@ NAME			= libft.a
 GREEN = \033[0;32m
 RESET = \033[0m
 
-.c.o:
-	gcc $(CFLAGS) -c $< -I ${HEADER} -o ${<:.c=.o}
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -I ${HEADER} -o ${<:.c=.o}
 	@echo "$(GREEN).$(RESER)\c"
 
 all:			$(NAME)

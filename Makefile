@@ -101,12 +101,12 @@ PATH_HEADERS = $(addprefix $(DIR_HEADERS)/, $(HEADERS))
 LIBFT = libft.a
 LIBFT_DIR = libft
 
-CC = gcc
+CC = clang
 
 FLAGS = -Wall -Werror -Wextra -g
 
 #Добавление библиотеки mlx
-MLX = libmlx.dylib
+MLX = libmlx.a
 MLX_FLAGS = -Lmlx -lmlx -framework OpenGL -framework AppKit
 MLX_DIR = mlx
 
